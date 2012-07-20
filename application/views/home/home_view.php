@@ -6,7 +6,7 @@
 
 <div id="content_wrapper">
 
-    <h1 class="homepage_title">TULANE UNIVERSITY'S INSTITUTIONAL REPOSITORY</h1>  
+<!--    <h1 class="homepage_title">TULANE UNIVERSITY'S INSTITUTIONAL REPOSITORY</h1>  -->
 <div class="shell container-content-main">
     <div class="container_24 clear">
         <div id="coverStoriesContainer">
@@ -61,6 +61,8 @@
                     <!-- END: fuseNav -->
                     
                     <div class="carousel">
+                        
+                        
                         <div class="storyUnit wide index-0 active"> 
                             <!-- big image -->
                             <div class="cvr-main"> 
@@ -70,10 +72,39 @@
                             </div>
                             <!-- END: cvr-main --> 
                             
-                            <!-- sub items in the right --> 
+                            <!-- sub items in the right -->
+                            <div class="cvr-highlights">
+                                <div class="cvr-headline lcs-headline">
+                                    <a href="<?= $carousel['item_three_link']; ?>">
+                                    	Guidelines For Submission
+                                    </a>
+                                </div>
+                                <div class="cvr-teaser lcs-teaser">A Little Help for Your BIG Project</div>
+                                <div class="cvr-highlightsSubTitle">Get Where Your Going</div>
+                                <ul class="evo-coverStories-subitems">
+                                    <li class="alpha"> 
+                                    	<a href="http://tulane.edu/sse/academics/graduate/upload/guidelines_theses_dissertations.pdf">Tulane's Style Guide</a> 
+                                    </li>
+                                    <li> 
+                                    	<a href="http://staff.library.tulane.edu/tdl_ttd/assets/bootstrap/doc/Tulane_PDF_Creation_Guide.pdf">PDF Creation Guide</a> 
+                                    </li>
+                                    <li> 
+                                    	<a href="http://tulane.edu/ogps/">Copyright Information</a> 
+                                    </li>
+                                    <li> 
+                                    	<a href="http://tulane.edu/ogps/">Deadlines!!!</a> 
+                                    </li>
+                                </ul>
+                                <!-- END: evo-coverStories-subitems --> 
+                            </div>
+                            <!-- END: cvr-highlights --> 
                         </div>
-
                         <!-- END: storyUnit -->
+                        
+                        
+                        
+                        
+                        
                         <div class="storyUnit wide index-1"> 
                             <!-- big image -->
                             <div class="cvr-main"> 

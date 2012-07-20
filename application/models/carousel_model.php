@@ -6,9 +6,9 @@ class Carousel_model extends CI_Model{
 
        
        $items = array(
-           'item_one_title' => 'number one',
-           'item_one_link' => 'http://www.nola.com',
-           'item_one_img' => 'assets/img/carousel/carousel_img_1.png',
+           'item_one_title' => 'Guidelines for Submission',
+           'item_one_link' => 'http://library.tulan.edu',
+           'item_one_img' => 'assets/img/carousel/carousel_thesis_guidelines.jpg',
            
            'item_two_title' => 'number two',
            'item_two_link' => 'http://library.tulane.edu',

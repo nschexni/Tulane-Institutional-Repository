@@ -31,10 +31,10 @@
         <!--start:Header --><div id="header">
             <!--start:Logo Title --><div id="logo-title">
                 <a href="/" title="Home" rel="home" id="logo">
-                    <img src="/journals/assets/img/header/tdl_header.png" alt="Home"  id="Header_Image_Map" usemap="#Header_Image_Map"/>
+                    <img src="/ir/assets/img/header/ir_header.png" alt="Home"  id="Header_Image_Map" usemap="#Header_Image_Map"/>
                 </a>
                 <map name="Header_Image_Map" id="Header_Image_Map">
-                    <area shape="rect" coords="204,0,900,104" href="http://digitallibrary.tulane.edu" title="Tulane Digital Library Home" alt="Tulane Digital Library Home" />
+                    <area shape="rect" coords="204,0,900,104" href="<?=base_url()?>" title="Tulane Institutional Repository" alt="Tulane Institutional Repository Home" />
                     <area shape="rect" coords="0,0,196,104" href="http://tulane.edu" target="_blank" title="Tulane University Homepage" alt="Tulane University Homepage" />
                 </map>
             <!--end:Logo Title --></div>    

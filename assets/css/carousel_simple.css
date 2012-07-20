@@ -38,10 +38,21 @@
 .cvr-highlightsSubTitle{font-family:"proxima-nova","helvetica neue",arial,sans-serif;font-size:11px;font-weight:700;margin-top:15px;text-transform:uppercase}
 .cvr-highlights{height:210px;padding:30px;position:absolute;right:0;top:0;width:248px;z-index:6;background:#000;background:rgba(0,0,0,0.75);overflow:hidden}
 .cvr-highlights a,.cvr-highlights{color:#fff;color:rgba(255,255,255,1)}
-.evo-coverStories-subitems{color:green}
-.evo-coverStories-subitems li{margin:4px 0}
-.evo-coverStories-subitems a{clear:right;color:#ccc;color:rgba(204,204,204,1);display:block;font-family:"proxima-nova","helvetica neue",arial,sans-serif;font-size:13px;left:3px;line-height:15px;margin-left:7px;position:relative}
+
+.evo-coverStories-subitems{color:orange}
+.evo-coverStories-subitems li{margin:4px 0 4px -20px; list-style:none;}
+.evo-coverStories-subitems a{clear:right;
+                             color:#ccc;
+                             color:rgba(204,204,204,1);
+                             display:block;
+                             font-size:12px;
+                             left:3px;
+                             line-height:15px;
+                             margin-left:7px;
+                             position:relative
+                             }
 .evo-coverStories-subitems a:hover{color:#fff}
+
 .cvr-main{position:relative;height:270px}
 .overlayContent .lcs-headline{margin:6px 12px 6px 12px}
 .overlayContent .lcs-subheadline{margin:0 12px 0 12px}
