@@ -1,0 +1,222 @@
+#top_stripe_bar{
+	background:url(/tdl_ttd/assets/bootstrap/img/common/nav_striped_bg.gif);
+	height:5px;
+	background-repeat:repeat-x;
+	border-top:1px #CCC solid;	
+}
+#dropList { 
+	height:30px; 
+	width:959px; 
+	background:#89a url(/tdl_ttd/assets/bootstrap/img/common/topBackBlue.gif) 
+	repeat-x left center; 
+	position:relative; 
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:1.2em; 
+	z-index:1500; 
+	border:1px solid #ccd; 
+	border-right:none;
+border-bottom:none;
+	border-width:1px 1px 0 1px; 
+	/*padding:0;
+	margin:0 0 -2px 0;
+	display:inline-block;*/
+
+
+} 	
+#dropList ul#menu { 
+	margin:0; 
+	padding:0 0 0 20px; 
+	list-style:none;
+/*	position:relative;*/
+} 
+#dropList ul#menu li.level1-li { 
+	float:left; 
+	height:29px; 
+	padding-top:1px; 
+	margin-right:1px; 
+
+} 
+#dropList ul#menu li.level1-li a.level1-a { 
+	display:block; 
+	height:26px; 
+	float:left; 
+	border-left:1px solid #7e8586; 
+	border-right:1px solid #2d2d2d; 
+	padding:0 10px 0 10px; 
+	text-decoration:none; 
+	line-height:24px; 
+	white-space:nowrap; 
+	font-weight:bold; 
+	color:#FFF; 
+
+}
+#dropList ul#menu li.sub a.level1-a {
+	color:#FFF;
+
+}
+#dropList ul#menu li.level1-li:hover, #dropList ul#menu li.level1-li a.level1-a:hover {
+	position:relative;
+
+} 
+#dropList ul#menu li.level1-li a.level1-a:hover, #dropList ul#menu li.level1-li:hover a.level1-a { 
+	border-left:1px solid #2d2d2d; 
+	border-right:1px solid #000; 
+	color:#fff; 
+	background:url(/tdl_ttd/assets/bootstrap/img/common/overBlue.gif); 
+
+}
+#dropList ul#menu li.sub a.level1-a:hover { 
+	height:29px; 
+	color:#000; 
+	background:url(/tdl_ttd/assets/bootstrap/img/common/topHover.gif); 
+}
+#dropList ul#menu li.sub:hover > a.level1-a { 
+	height:29px; 
+	color:#000; 
+	background:url(/tdl_ttd/assets/bootstrap/img/common/topHover_blue.gif); 
+}
+#dropList ul#menu li div.listHolder { 
+	position:absolute; 
+	left:-9999px; 
+	top:29px; 
+	/*background-color:#061c31;*/
+	background:url(/tdl_ttd/assets/bootstrap/img/common/blue_gradient.png) ;
+	border:1px solid #999; 
+	border-width:0 1px 1px 1px; 
+	padding:0; 
+	/*display:none for mega menus to work | 
+	http://blogs.sitepoint.com/2009/03/31/make-a-mega-drop-down-menu-with-jquery/*/
+	display: none; 
+}
+
+/*display:block for mega menus to work with li class of 'hovering' | 
+	http://blogs.sitepoint.com/2009/03/31/make-a-mega-drop-down-menu-with-jquery/*/
+#dropList ul#menu li.hovering div.listHolder {  
+	display: block;  
+}
+
+
+
+/* IE6 only */ 
+#dropList table { 
+	border-collapse:collapse; 
+	margin:-1px -10px; 
+	font-size:1em; 
+	width:0; 
+	height:0; 
+}
+#dropList ul#menu :hover div.listHolder {
+	left:0;
+} 
+#dropList ul#menu a:hover div.listHolder {
+	left:-1px;
+	_left:0;
+
+} 
+#dropList ul#menu div.col1 {
+	width:200px;
+	
+} 
+#dropList ul#menu div.col2 {
+	width:400px;
+} 
+#dropList ul#menu div.col3 {
+	width:600px;
+} 
+#dropList ul#menu a:hover div.left1, #dropList ul#menu :hover div.left1 {			 			
+	left:-180px;
+	
+} 
+#dropList ul#menu div.listHolder div.listCol {
+	display:block; 
+	float:left; 
+	padding:10px; 
+	margin:0 15px 0 0; 
+	width:185px;
+	
+} 
+#dropList ul#menu div.listHolder div.listCol h5 {
+	color:#fff;
+	padding:5px 0 3px 0; 
+	margin:0; 
+	font-size:1.1em; 
+	_font-size:1em;
+	line-height:15px;
+    _line-height:26px; 
+    font-variant:small-caps;
+   /* letter-spacing:.05em;*/
+} 
+#dropList ul#menu div.listHolder div.listCol h5 a {
+	color:#fff;
+	padding:5px 0 0 0; 
+	margin:0;
+	line-height:10px; 
+	text-decoration:none;
+} 
+
+#dropList ul#menu div.listHolder div.listCol h5 a:hover {
+color:#d98a00;
+text-decoration:underline;
+}
+
+#dropList ul#menu div.listHolder div.listCol ul {
+	padding:0; 
+	margin:0; 
+	list-style:none;
+} 
+#dropList ul#menu div.listHolder div.listCol ul li {
+	line-height:1.1em; 
+	padding:.4em 0 .4em 1em; 
+	margin:0;
+text-indent: -1em;
+
+} 
+#dropList ul#menu div.listHolder div.listCol ul li a {
+	color:#fff;
+	text-decoration:none; 
+	padding-left:10px; 
+	font-weight:normal; 
+} 
+#dropList ul#menu div.listHolder div.listCol ul li a:hover {
+	text-decoration:underline;
+color:#d98a00;
+	
+} 
+					
+#dropList ul#menu a:hover div.listHolder div.bottomLine {
+	height:1px;
+}
+#dropList ul#menu div.listHolder div.bottomLine p {
+	padding:0 0 0 15px; 
+	margin:0; 
+	line-height:20px; 
+	color:#fc0; 
+	background:url(/tdl_ttd/assets/bootstrap/img/common/arrow.gif) no-repeat left center; 
+	font-weight:bold;
+} 
+#dropList ul#menu div.listHolder div.bottomLine p a {
+	color:#fff; 
+	text-decoration:underline;
+} 
+#dropList ul#menu div.listHolder div.bottomLine p a:hover {
+	text-decoration:none;
+}
+
+/*SETS TAB ACTIVE LINK ON*/
+.ex { 
+	display:block; 
+	height:30px; 
+	float:left; 
+	border-left:1px solid #7e8586; 
+	border-right:1px solid #2d2d2d; 
+	padding:0 10px 0 10px; 
+	text-decoration:none; 
+	line-height:24px; 
+	white-space:nowrap; 
+	font-weight:bold; 
+	color:#222; 
+	background:url(/tdl_ttd/assets/bootstrap/img/common/topHover_blue.gif); 
+	
+}
+
+		

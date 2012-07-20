@@ -1,0 +1,18 @@
+/* Homepage Style */
+@import url(http://fonts.googleapis.com/css?family=Happy+Monkey);
+
+/*CONTENT AREA*/
+#content {
+
+}
+
+#content_wrapper{
+}
+
+.homepage_title{
+ color:#333;
+ font-size:5em;
+ line-height:1em;
+font-weight:bold;
+padding:20px 0 20px 20px;   
+}

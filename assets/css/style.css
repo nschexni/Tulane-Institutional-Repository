@@ -1,0 +1,688 @@
+/*MAIN STYLES*/
+*{ 
+	outline:none;	
+}
+body {
+	background-color:#032a17;
+	/*font-size:62.5%;*/
+	font-size:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	width:960px;
+	margin:0 auto;
+	opacity: .99;
+}	
+#page {
+	margin:0 auto;
+	width:960px;
+	position:relative;
+}
+#main_container {
+	background-color:#FFF;
+	width:960px;
+	border-left:6px #99cc66 solid;
+	margin:10px auto 20px auto;
+	float:left;
+}	
+a {
+	color:#224568;	
+}
+a:hover {
+	color:#d98a00;	
+}
+p{
+	margin-left:10px;
+	color: #333;
+	text-decoration: none;
+	word-spacing: 0.1em;
+	text-align: left;
+	letter-spacing: 0;
+	line-height: 1.6em;
+	font-size: 1.2em;
+	/*clear:both;*/
+}
+h1,h2,h3,h4	{
+	font-family:Georgia, "Times New Roman", serif;
+	color:#222;
+	clear:both;
+}
+h1{
+	font-size: 2.4em;
+    letter-spacing: 1px;
+	font-weight:normal;
+	margin:0 40px 0 10px;
+	padding:0 0 5px 0;
+}
+h2{
+	font-size: 1.8em; 	
+	letter-spacing: 1px;
+	font-weight:normal;      
+    margin:0 40px 0 10px;
+	padding:0 0 5px 0;	
+}
+h2 a {
+	color:#222;
+	text-decoration:none;}
+h3{
+    font-size: 1.4em; 
+    letter-spacing: .05em;
+	font-weight:bold; 
+    margin:10px 0 10px 10px;
+	padding:0;
+}
+
+h4{
+    font-size: 1.2em; 
+    letter-spacing: .05em;
+	font-weight:bold; 
+    margin:10px 0 10px 10px;
+	padding:0;
+}
+
+h5{
+    font-size: 1.1em; 
+    letter-spacing: .05em;
+	font-weight:bold; 
+    margin:10px 0 10px 10px;
+	padding:0;
+}
+.gradient-container{
+	background:#fff url(/tdl_ttd/assets/img/common/gradient_back.jpg) bottom repeat-x;
+	overflow:hidden;
+}
+.gradient-blue{
+	background:#fff url(/tdl_ttd/assets/img/common/topBackBlue.gif) bottom repeat-x;
+	overflow:hidden;
+}
+.required {
+	background-image:url(/tdl_ttd/assets/img/common/required_star.gif);
+	background-repeat:no-repeat;
+	padding-left:12px;
+	background-position:left;
+	}
+.body_img {
+	border:1px solid #ccc;
+	margin:0 0 10px 10px;
+	padding: 7px 7px 7px 7px ;
+}	
+/*HEADER AND NAVIGATION*/
+#header {
+}
+/*SUB-NAVIGATION*/
+#sub_nav {
+	width:960px;
+	height:16px;
+	padding:5px 0;
+	margin:0;
+	border-top: 1px solid #ccc;
+	background-color:#F5F5F5;
+font-size:1.1em;
+}	
+#sub_nav a{
+	color:#222;
+	text-decoration:none;
+	padding:2px;
+	font-size:1.1em;
+}
+#sub_nav a:hover{
+	color:#e39309;
+	padding:2px;
+}
+#sub_nav #hours {
+	width:450px;
+	float:left;	
+	padding-left: 1em;
+	font-weight:bold;
+}		
+#sub_nav #hours a {
+	font-weight:normal;
+	color:#4388cc;
+}	
+#sub_nav #hours a:hover {
+	color:#e39309;
+	background-color:#061c31;
+}	
+#sub_nav #hours #hours_text {float:left; position:relative;}
+#sub_nav #hours #hours_calendar{padding:0px 0 0px 20px;  background-color:none; float:left; margin:-3px 0 0 0;}
+
+#sub_nav #links {
+	width:420px;
+	float:right;
+	text-align:right;
+}	
+#sub_nav #links ul {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+} 
+#sub_nav #links ul li {
+	margin-left: 0;
+	padding: 3px 5px;
+	border-left: 1px solid #000;
+	list-style: none;
+	display: inline;
+}	
+#sub_nav #links ul li.first {
+	border-left: none;
+}		
+#sub_nav #links ul li.first a {
+	border-left: none;
+}
+#sub_nav #links ul li.first a:hover {
+	border-left: none;
+}
+#sub_nav #links li a:hover {
+background-color:#061c31;
+padding:2px;
+}
+
+
+/*MY ACCOUNTS DROPDOWN*/
+.accounts_dd_over{
+background:#89a url(/tdl_ttd/assets/img/common/blue_gradient.png) 
+	repeat-x left center;
+	color:#d98a00;
+}
+li.accounts_dd {color:#224568;cursor:text;}
+
+#account_dropdown{
+display:none; 
+position:absolute; 
+right:1;
+top:1; 
+padding:0; 
+margin:1px 0 0 186px;
+*margin:19px 0 0 -102px;
+text-align:left;
+background:#89a url(/tdl_ttd/assets/img/common/blue_gradient.png) 
+	repeat-x left center; 
+z-index:3000;
+color:#fff;
+width:150px;
+height:150px;
+border-left:1px solid #ccc;
+border-bottom:1px solid #ccc;
+border-right:1px solid #ccc;
+}
+.accounts_dd_item{line-height:17px; color:#fff; display:block; padding:4px 0 4px 0;}
+.accounts_dd_item a{line-height:17px; color:#fff;}
+.accounts_dd_item a:hover{line-height:17px; color:#d98a00;}
+
+#account_dropdown p {margin:10px 0 0 0; color:#fff;}
+#account_dropdown a{color:#fff; margin:0 0 0 20px; padding:0;}
+#account_dropdown a:hover{margin:0 0 0 20px; padding:0; color:#d98a00;}
+
+#account_dropdown h5{margin:5px 5px 0 5px; padding:3px 0 5px 0; font-variant:small-caps; font-size:1.1em; 
+	_font-size:1em;}
+
+
+/*SITE SEARCH BOX*/
+
+#google-cse-searchbox-form{
+width:300px;
+background:#89a url(/tdl_ttd/assets/img/common/topBackBlue.gif)repeat-x left center; 
+	position:relative; 
+	font-size:1em; 
+	z-index:600; 
+	border:1px solid #ccd; 
+	border-left:none;
+	border-right:none;
+	border-width:1px 1px 0 1px; 
+	height:27px;
+	float:right;
+	margin-top:-31px;
+	/*margin-top:-53px;*/
+	padding-top:3px;
+	color:white;
+}
+
+#google-cse-searchbox-form .form-text{
+_font-size:1em;
+_width:150px;
+*width:100px;
+_height:16px;
+}
+
+#google-cse-searchbox-form .form-submit{
+_font-size:1em;
+}
+
+
+#block-google_cse-0 h2{display:none;}
+
+/*END SITE SEARCH BOX*/
+
+/*CONTENT AREA*/
+
+
+/******EMEREGENCY NOTE AREA*****/
+#emergency_note{background-color:#eee; border:1px solid #ccc; width:90%; margin:20px auto -10px auto; padding:5px 20px;}
+#emergency_note p{display:inline; color:#333; font-size:1.5em; width:90%;}
+#emergency_note h2{display:inline; color:red; margin:0 0 0 -10px; }
+#emergency_note a{text-decoration:underline; color:blue;}
+#emergency_note a:hover{text-decoration:underline; color:orange;}
+/******EMEREGENCY NOTE AREA*****/
+
+/*Standard box*/
+
+#body_content #stdbox ul {
+        list-style-type: none;
+        width: 230px;
+		margin:0;
+		padding:0 6px;
+} 
+#body_content #stdbox ul li {
+		list-style:none;
+		font-size:1.3em;
+		padding:3px 0 8px 0;
+		margin:0px;
+		border-bottom: 1px solid #D3D3D3;	
+}
+
+#body_content #stdbox li a{
+        display: block;
+        padding:5px;
+        text-decoration: none;
+}
+* html #stdbox li a {  /* make hover effect work in IE */
+		width: 230px;
+}
+#body_content #stdbox li a:hover {
+        background: #061c31;
+}
+
+/*Standard box for Research Subject page*/
+#body_content #stdbox_ressub {
+		padding:0;
+		float:left;
+		width:195px;
+		border-top:none;
+		border:1px solid #D3D3D3;
+		margin:0 5px 5px 0;
+		position:relative;
+		background:#fff url(/tdl_ttd/assets/img/common/gradient_back.jpg) bottom repeat-x;
+}
+
+#body_content #stdbox_ressub #stdbox_ressub_head {
+		width:98%;
+    	margin:3px auto 10px auto;
+		padding:0;
+		height:27px;
+		background:#fff url(/tdl_ttd/assets/img/common/topBackBlue.gif) bottom repeat-x;
+}
+
+#body_content #stdbox_ressub #stdbox_ressub_head h3{
+		color:#fff;
+		font-size:1.2em;
+		padding:5px 0 0 5px;
+		margin:0;
+
+}
+
+#body_content #stdbox_ressub ul {
+        list-style-type: none;
+        width: 95%;
+		margin:0;
+		padding-left:10px;
+
+} 
+
+#body_content #stdbox_ressub ul li {
+		list-style:none;
+		font-size:11pt;
+		color:#000;
+		padding-left:0px;
+		margin:0;
+		line-height:normal;
+}
+
+
+.ressub_catagory {color:#333; font-size:11pt; display:block; margin:5px 50px -8px 0; padding-bottom:11px;}
+
+#body_content #stdbox_ressub ul ul { margin-bottom:5px;}
+
+#body_content #stdbox_ressub ul ul li{
+		list-style:none;
+		font-size:10pt;
+		padding-left:0px;
+		margin:0px 10px 0 1em;
+		text-indent:-1em;
+}
+
+#body_content #stdbox_ressub li a{
+        display: block;
+        padding: 1px;
+		margin:0px;
+        text-decoration: none;
+}
+
+* html #stdbox_ressub li a {  /* make hover effect work in IE */
+		width: 95%;
+}
+#body_content #stdbox_ressub li a:hover {
+        background: #061c31;
+}
+
+
+
+/*Standard box for text items*/
+
+#stdbox_wrapper{
+		margin:30px 0 0 20px;
+		float:left;
+		position:relative;
+}
+#stdbox {
+		padding:0;
+		float:left;
+		width:250px;
+		border-top:none;
+		border:1px solid #D3D3D3;
+		margin:0 30px 20px 0;
+		position:relative;
+		background:#fff url(/tdl_ttd/assets/img/common/gradient_back.jpg) bottom repeat-x;
+} 
+
+
+#stdbox_head {	
+		width:96%;
+    	margin:3px auto;
+		height:27px;
+		background:#fff url(/tdl_ttd/assets/img/common/topBackBlue.gif) bottom repeat-x;
+}
+
+#stdbox_text_wrapper{
+		margin:20px 0 0 0;
+		float:left;
+		position:relative;
+}
+#stdbox_text {
+		padding:0;
+		float:left;
+		width:300px;
+		border-top:none;
+		border:1px solid #D3D3D3;
+		margin:0 20px 10px 0;
+		position:relative;
+		background:#fff url(/tdl_ttd/assets/img/common/gradient_back.jpg) bottom repeat-x;
+} 
+
+#stdbox_text_sc1 {
+		padding:0;
+		float:left;
+		width:623px;
+		border-top:none;
+		border:1px solid #D3D3D3;
+		margin:0 20px 10px 0;
+		position:relative;
+		background:#fff url(/tdl_ttd/assets/img/common/images/gradient_back.jpg) bottom repeat-x;
+}
+#stdbox p {
+ padding:3px 20px 10px 0;
+}
+
+#stdbox_text p {
+ padding:3px 20px 10px 0;
+}
+
+#stdbox_head h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		color:#F7F7F7;
+		font-size:1.4em;
+		font-weight:bold;
+		padding:0;
+		margin:0 0 0 10px;
+    	line-height:27px;
+		letter-spacing:.02em;	
+}
+
+.no_margin	{
+	margin-top: 0pt; 
+	margin-bottom: 0pt;
+}
+
+/**--------Site Forms--------**/
+
+.cssform p{
+	margin:0;
+	height:1%;
+	clear:left;
+	width:340px;
+	padding:10px 0px 8px 170px
+}
+
+.cssform label {
+	float:left;
+	width:170px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+	margin-left:-175px; /*width of left column*/
+	padding-left:5px;
+
+}
+
+.cssform input[type="text"]{ /*width of text boxes. IE6 does not understand this attribute*/
+	width:180px;
+}
+
+.cssform select {
+	width:180px;
+	margin-top: -200px;
+}
+.cssform textarea {
+	width:250px;
+	height:100px;
+}
+
+/* FOOTER*/
+#footer_stripe{
+	float:left;
+	background-image:url(/tdl_ttd/assets/img/footer/footer_striped_bg.gif);
+	background-repeat:repeat-x;
+	height: 20px;
+	width:960px;
+}
+#footer {
+  float: left;
+  width: 960px;
+  background: #999999;
+}
+
+#footer a {
+  color: #FFF;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+}
+#footer a:hover {
+  background: #CCC;
+  color: #061c31;
+}
+
+#footer ul {
+  display: table;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  float: right;
+}
+#footer ul li {
+  display: table-cell;
+  float: left;
+}
+#footer ul li a {
+  display: block;
+  color: #FFF;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+}
+#footer ul li a:hover {
+  background: #CCC;
+  color: #061c31;
+}
+#address {
+	float:left;
+	width:960px;
+	text-align:center;
+	color:#FFF;
+	margin: -10px auto 20px auto;
+	font-size:1.1em;
+	text-align:center;
+	padding:0 0 30px 0;
+}	
+
+#address img{ 
+	margin-top:5px; 
+	_margin-top:0px;
+	vertical-align:bottom;
+	_vertical-align:middle;
+}
+#address a{
+	color:#FFF;
+	text-decoration:none;
+}	
+#address a:hover{
+	color:#d98a00;
+	text-decoration:none;
+}
+
+/*Microforms & Newspapers*/	
+
+#micro_main_wrapper {
+	width:640px;
+}
+#right_col {
+	float:right; width:200px; margin:0 0 0 10px;
+}
+
+#right_col  #stdbox{
+	 margin:0px 0px 10px 10px; width:200px;
+}
+
+#right_col #stdbox ul li {
+		width:182px;
+		list-style:none;
+		font-size:1.3em;
+		padding:3px 0px 8px 5px;
+		margin:0;
+		border-bottom: 1px solid #D3D3D3;	
+		}
+		
+#right_col #stdbox ul li a{
+        display: block;
+        padding: 0 3px 0 0;
+        text-decoration: none;
+		margin:0;
+		width:182px;
+}
+
+#right_col  #stdbox ul li a:hover{
+margin-left:0px;
+width:180px;
+padding:0 0 0 4px;
+}
+
+#wrapper {
+	width:425px;
+}
+
+#left_col #wrapper #list_right_col {
+	float:right; width:220px;
+	padding:0 0 0 0;
+}
+
+#left_col #wrapper #list_right_col ul li{
+	margin-left:-30px;
+	padding:0 0 3px 0;
+	width:100%;
+	border-bottom:1px solid #ccc;
+	list-style-type:none;
+}
+
+#left_col #wrapper #list_right_col ul{
+	width:190px;
+}
+
+#left_col #wrapper #list_left_col {
+	float:left; width:170px;
+
+}
+
+#left_col #wrapper #list_left_col ul{
+	width:170px;
+}
+
+
+#left_col #wrapper #list_left_col ul li{
+	margin-left:-30px;
+	padding:0 0 3px 0;
+	width:100%;
+	border-bottom:1px solid #ccc;
+	list-style-type:none;
+}
+
+#left_col #featured_coll_list #list_micro_coll ul li{
+	margin-left:-30px;
+	padding:0 0 3px 0;
+/*	width:220px;*/
+	border-bottom:1px solid #ccc;
+	list-style-type:none;
+}
+#left_col #featured_coll_list {
+	clear:left;
+	margin:0 0 0 10px;
+}
+#left_col #featured_coll_list h3{
+	clear:left;
+	margin:10px 0 0 0;
+}
+
+
+.text {
+	
+	  width:405px;
+
+}
+#newspapers {
+	
+	  border: 1px solid #d3d3d3; 
+	  width:425px;
+	  margin-left:8px;
+}
+
+#newsTitle 
+{
+      font-size:11pt;
+      border-bottom: 1px solid #d3d3d3; 
+      padding: 5px 0 20px 5px;
+}
+
+#newspapers #newsTitle ul{
+	display: inline;
+	font-size:8pt;
+margin-left:-25px;
+
+
+}
+
+#newspapers #newsTitle ul li{
+	display: inline;
+}
+
+#key {
+	margin:10px 0 10px 0;
+
+}
+
+#key_table td{
+	
+      border-bottom: 1px solid #eee; 
+}
+
+/*End Microforms & Newspapers*/	
+
+/*FOR DRUPAL ADMINISTRATION*/
+div .messages {background-color:pink; clear:both}
+#none ul .tabs secondary {background-color:red; padding:0; margin:0;}
