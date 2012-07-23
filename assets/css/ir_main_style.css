@@ -16,3 +16,11 @@
 font-weight:bold;
 padding:20px 0 20px 20px;   
 }
+
+#homepage_carousel{
+
+margin:20px 0;
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
+height:330px;
+}

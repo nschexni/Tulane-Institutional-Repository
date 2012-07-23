@@ -31,7 +31,7 @@
         <!--start:Header --><div id="header">
             <!--start:Logo Title --><div id="logo-title">
                 <a href="/" title="Home" rel="home" id="logo">
-                    <img src="/ir/assets/img/header/ir_header.png" alt="Home"  id="Header_Image_Map" usemap="#Header_Image_Map"/>
+                    <img src="/ir/assets/img/header/ir_header_black.png" alt="Home"  id="Header_Image_Map" usemap="#Header_Image_Map"/>
                 </a>
                 <map name="Header_Image_Map" id="Header_Image_Map">
                     <area shape="rect" coords="204,0,900,104" href="<?=base_url()?>" title="Tulane Institutional Repository" alt="Tulane Institutional Repository Home" />
