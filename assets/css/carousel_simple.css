@@ -2,15 +2,15 @@
 .evo-coverStories{display:inline;float:left;width:948px;overflow:hidden;position:relative}
 .evo-coverStories .fuseNav{width:100%}
 .evo-coverStories .fuseNav a{display:block;float:left;font-family:"proxima-nova","helvetica neue",arial,sans-serif;font-size:11px;font-weight:700;line-height:44px;text-transform:uppercase}
-.evo-coverStories .fuseNav a.active{color:green}
+.evo-coverStories .fuseNav a.active{color:#ECA742;}
 .evo-coverStories .fuseNav a span{display:block}
 .evo-coverStories .fuseNav a .text{border-left:1px solid #CCC;height:44px;padding:5px 15px 0}
 .evo-coverStories .fuseNav a.first .text{border-left-width:0}
 .evo-coverStories .fuseNav .fuse{background-color:#CCC;height:5px;overflow:hidden}
-.evo-coverStories .fuseNav a .fuse .activeFuse{background-color:green;float:right;height:5px;width:0}
+.evo-coverStories .fuseNav a .fuse .activeFuse{background-color:#ECA742;float:right;height:5px;width:0}
 .evo-coverStories .fuseNav a.previous .fuse{background-color:#333}
 .evo-coverStories .fuseNav a.active .fuse .activeFuse{float:left}
-.evo-coverStories .fuseNav a.selected .fuse{background-color:green}
+.evo-coverStories .fuseNav a.selected .fuse{background-color:#ECA742;}
 .evo-coverStories a{text-decoration:none;color:#000}
 .evo-coverStories .prime,.evo-coverStories .secondary{height:263px;border-top:1px solid #ccc;border-right:1px solid #ccc;position:relative;overflow:hidden;background-repeat:no-repeat}
 .evo-wrapper{margin-left:6px}
