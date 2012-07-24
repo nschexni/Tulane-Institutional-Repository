@@ -247,7 +247,50 @@
     
     
     
+    <div id="homepage_middle_section">
+                
+        <div id="left_col">
+            <div class="column_recent">
+            <h2 class="recent_headline">Recent Additions</h2>
+                <p  class="middle_section_p">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <ul>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                </ul>
+           </div>    
+        </div>
     
+        <div id="middle_col">
+            <div class="column_area_highlights">
+                <h2 class="collections_headline">Collections</h2>
+                <p class="middle_section_p">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <ul>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="right_col">
+                <div class="column_news">
+                <h2 class="news_headline">News</h2>
+                <p class="middle_section_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <ul>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                    <li><a href="#">list item one</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     
     
     
