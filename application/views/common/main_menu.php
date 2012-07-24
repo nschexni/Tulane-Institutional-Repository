@@ -1,7 +1,6 @@
 <div id="top_stripe_bar">&nbsp;</div>
 
 <div id="dropList">
-
 <ul id="menu">
     <li class="level1-li"><a class="level1-a" href="<?= base_url();?>">About</a></li>
    

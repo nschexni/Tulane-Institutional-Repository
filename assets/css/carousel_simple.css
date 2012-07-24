@@ -1,7 +1,7 @@
 
 .evo-coverStories{display:inline;float:left;width:948px;overflow:hidden;position:relative}
 .evo-coverStories .fuseNav{width:100%}
-.evo-coverStories .fuseNav a{display:block;float:left;font-family:"proxima-nova","helvetica neue",arial,sans-serif;font-size:11px;font-weight:700;line-height:44px;text-transform:uppercase}
+.evo-coverStories .fuseNav a{display:block;float:left;font-family: Arial, Helvetica, sans-serif; font-size:11px;font-weight:700;line-height:44px;text-transform:uppercase;}
 .evo-coverStories .fuseNav a.active{color:#ECA742;}
 .evo-coverStories .fuseNav a span{display:block}
 .evo-coverStories .fuseNav a .text{border-left:1px solid #CCC;height:44px;padding:5px 15px 0}
@@ -33,14 +33,14 @@
 .evo-coverStories .carousel .storyUnit.active{top:0;transition-delay:0s;-moz-transition-delay:0s;-o-transition-delay:0s;-webkit-transition-delay:0s;z-index:2}
 .evo-coverStories .overlayBackground{background:#000;opacity:.75}
 .overlayContent span{display:block;margin:0}
-.lcs-headline,.lcs-headline a{font-family:"proxima-nova","helvetica neue",arial,sans-serif;font-size:22px;font-weight:700;letter-spacing:-1px;line-height:25px}
-.lcs-teaser{font-family:"proxima-nova","helvetica neue",arial,sans-serif;font-size:13px;margin-top:5px}
-.cvr-highlightsSubTitle{font-family:"proxima-nova","helvetica neue",arial,sans-serif;font-size:11px;font-weight:700;margin-top:15px;text-transform:uppercase}
+.lcs-headline,.lcs-headline a{font-family: Arial, Helvetica, sans-serif; font-size:22px;font-weight:700;letter-spacing:-1px;line-height:25px}
+.lcs-teaser{font-family: Arial, Helvetica, sans-serif; font-size:13px;margin-top:5px}
+.cvr-highlightsSubTitle{font-family: Arial, Helvetica, sans-serif; font-size:11px;font-weight:700;margin-top:15px;text-transform:uppercase}
 .cvr-highlights{height:210px;padding:30px;position:absolute;right:0;top:0;width:248px;z-index:6;background:#000;background:rgba(0,0,0,0.75);overflow:hidden}
 .cvr-highlights a,.cvr-highlights{color:#fff;color:rgba(255,255,255,1)}
 
 .evo-coverStories-subitems{color:orange}
-.evo-coverStories-subitems li{margin:4px 0 4px -20px; list-style:none;}
+.evo-coverStories-subitems li{margin:4px 0 4px 0px; list-style:none;}
 .evo-coverStories-subitems a{clear:right;
                              color:#ccc;
                              color:rgba(204,204,204,1);

@@ -6,7 +6,7 @@ body {
 	background-color:#032a17;
 	/*font-size:62.5%;*/
 	font-size:10px;
-	font-family:Verdana, Geneva, sans-serif;
+	font-family: Arial, Helvetica, sans-serif; 
 	width:960px;
 	margin:0 auto;
 	opacity: .99;
@@ -86,15 +86,15 @@ h5{
 	padding:0;
 }
 .gradient-container{
-	background:#fff url(/tdl_ttd/assets/img/common/gradient_back.jpg) bottom repeat-x;
+	background:#fff url(/ir/assets/img/common/gradient_back.jpg) bottom repeat-x;
 	overflow:hidden;
 }
 .gradient-blue{
-	background:#fff url(/tdl_ttd/assets/img/common/topBackBlue.gif) bottom repeat-x;
+	background:#fff url(/ir/assets/img/common/topBackBlue.gif) bottom repeat-x;
 	overflow:hidden;
 }
 .required {
-	background-image:url(/tdl_ttd/assets/img/common/required_star.gif);
+	background-image:url(/ir/assets/img/common/required_star.gif);
 	background-repeat:no-repeat;
 	padding-left:12px;
 	background-position:left;
@@ -178,7 +178,7 @@ padding:2px;
 
 /*MY ACCOUNTS DROPDOWN*/
 .accounts_dd_over{
-background:#89a url(/tdl_ttd/assets/img/common/blue_gradient.png) 
+background:#89a url(/ir/assets/img/common/blue_gradient.png) 
 	repeat-x left center;
 	color:#d98a00;
 }
@@ -193,7 +193,7 @@ padding:0;
 margin:1px 0 0 186px;
 *margin:19px 0 0 -102px;
 text-align:left;
-background:#89a url(/tdl_ttd/assets/img/common/blue_gradient.png) 
+background:#89a url(/ir/assets/img/common/blue_gradient.png) 
 	repeat-x left center; 
 z-index:3000;
 color:#fff;
@@ -219,7 +219,7 @@ border-right:1px solid #ccc;
 
 #google-cse-searchbox-form{
 width:300px;
-background:#89a url(/tdl_ttd/assets/img/common/topBackBlue.gif)repeat-x left center; 
+background:#89a url(/ir/assets/img/common/topBackBlue.gif)repeat-x left center; 
 	position:relative; 
 	font-size:1em; 
 	z-index:600; 
@@ -299,7 +299,7 @@ _font-size:1em;
 		border:1px solid #D3D3D3;
 		margin:0 5px 5px 0;
 		position:relative;
-		background:#fff url(/tdl_ttd/assets/img/common/gradient_back.jpg) bottom repeat-x;
+		background:#fff url(/ir/assets/img/common/gradient_back.jpg) bottom repeat-x;
 }
 
 #body_content #stdbox_ressub #stdbox_ressub_head {
@@ -307,7 +307,7 @@ _font-size:1em;
     	margin:3px auto 10px auto;
 		padding:0;
 		height:27px;
-		background:#fff url(/tdl_ttd/assets/img/common/topBackBlue.gif) bottom repeat-x;
+		background:#fff url(/ir/assets/img/common/topBackBlue.gif) bottom repeat-x;
 }
 
 #body_content #stdbox_ressub #stdbox_ressub_head h3{
@@ -379,7 +379,7 @@ _font-size:1em;
 		border:1px solid #D3D3D3;
 		margin:0 30px 20px 0;
 		position:relative;
-		background:#fff url(/tdl_ttd/assets/img/common/gradient_back.jpg) bottom repeat-x;
+		background:#fff url(/ir/assets/img/common/gradient_back.jpg) bottom repeat-x;
 } 
 
 
@@ -387,7 +387,7 @@ _font-size:1em;
 		width:96%;
     	margin:3px auto;
 		height:27px;
-		background:#fff url(/tdl_ttd/assets/img/common/topBackBlue.gif) bottom repeat-x;
+		background:#fff url(/ir/assets/img/common/topBackBlue.gif) bottom repeat-x;
 }
 
 #stdbox_text_wrapper{
@@ -403,7 +403,7 @@ _font-size:1em;
 		border:1px solid #D3D3D3;
 		margin:0 20px 10px 0;
 		position:relative;
-		background:#fff url(/tdl_ttd/assets/img/common/gradient_back.jpg) bottom repeat-x;
+		background:#fff url(/ir/assets/img/common/gradient_back.jpg) bottom repeat-x;
 } 
 
 #stdbox_text_sc1 {
@@ -414,7 +414,7 @@ _font-size:1em;
 		border:1px solid #D3D3D3;
 		margin:0 20px 10px 0;
 		position:relative;
-		background:#fff url(/tdl_ttd/assets/img/common/images/gradient_back.jpg) bottom repeat-x;
+		background:#fff url(/ir/assets/img/common/images/gradient_back.jpg) bottom repeat-x;
 }
 #stdbox p {
  padding:3px 20px 10px 0;
@@ -425,7 +425,7 @@ _font-size:1em;
 }
 
 #stdbox_head h3 {
-		font-family:Arial, Helvetica, sans-serif;
+		font-family:Georgia, "Times New Roman", serif;
 		color:#F7F7F7;
 		font-size:1.4em;
 		font-weight:bold;
@@ -474,7 +474,7 @@ _font-size:1em;
 /* FOOTER*/
 #footer_stripe{
 	float:left;
-	background-image:url(/tdl_ttd/assets/img/footer/footer_striped_bg.gif);
+	background-image:url(/ir/assets/img/footer/footer_striped_bg.gif);
 	background-repeat:repeat-x;
 	height: 20px;
 	width:960px;
