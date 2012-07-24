@@ -3,7 +3,6 @@
     
 <head>
     <title><?=$title?></title>
-    
     <link rel="shortcut icon" href="<?=base_url();?>assets/img/header/favicon.ico" type="image/x-icon" />
     <!-- css:Reset -->
     <link rel="stylesheet" href="<?= base_url();?>assets/css/reset.css" type="text/css">
@@ -18,11 +17,9 @@
     <!-- css:Drop List -->
     <link rel="stylesheet" href="<?= base_url();?>assets/css/droplist.css" type="text/css">
     <!-- css:Image Switcher -->
-    <link rel="stylesheet" href="<?= base_url();?>assets/css/image_switch.css" type="text/css">
-    
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script src="<?= base_url();?>assets/js/custom/jquery_hoverIntent.js" type="text/javascript"></script>
-    
+<!--    <link rel="stylesheet" href="<?= base_url();?>assets/css/image_switch.css" type="text/css"> -->
+    <!--scripts and css for Carousel-->
+    <link href="<?=base_url();?>assets/css/carousel_simple.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
 
 <body>

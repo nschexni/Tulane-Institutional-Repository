@@ -22,7 +22,13 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?=base_url()?>assets/js/jquery.js"></script>
+<!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>-->
+    <script src="<?=base_url()?>assets/js/custom/jquery_hoverIntent.js" type="text/javascript"></script>
+    <script src="<?=base_url()?>assets/js/custom/jquery_howard_menu.js" type="text/javascript"></script>
+    <script src="<?=base_url()?>assets/js/custom/image_switch.js" type="text/javascript"></script>
+    <script src="<?=base_url();?>assets/js/custom/jquery_sizzle.js" type="text/javascript"></script>    
+    <script src="<?=base_url();?>assets/js/custom/jquery.js" type="text/javascript"></script>      
+    
     <script src="<?=base_url()?>assets/js/bootstrap-transition.js"></script>
     <script src="<?=base_url()?>assets/js/bootstrap-alert.js"></script>
     <script src="<?=base_url()?>assets/js/bootstrap-modal.js"></script>
@@ -35,8 +41,6 @@
     <script src="<?=base_url()?>assets/js/bootstrap-collapse.js"></script>
     <script src="<?=base_url()?>assets/js/bootstrap-carousel.js"></script>
     <script src="<?=base_url()?>assets/js/bootstrap-typeahead.js"></script>
-    <script src="<?=base_url()?>assets/js/custom/jquery_hoverIntent.js"></script>
-    <script src="<?=base_url()?>assets/js/custom/jquery_howard_menu.js"></script>
-    <script src="<?=base_url()?>assets/js/custom/image_switch.js"></script>
+
 </body>        
 </html>

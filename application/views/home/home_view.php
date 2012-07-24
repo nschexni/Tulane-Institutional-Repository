@@ -1,8 +1,4 @@
-<!--scripts and css for Carousel-->
-<link href="<?=base_url();?>assets/css/carousel_simple.css" media="screen" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="<?=base_url();?>assets/js/custom/jquery_sizzle.js"></script>
-<!--File that declares carousel items information  NS:2012/07/18-->
-<script type="text/javascript" src="<?=base_url();?>assets/js/custom/carousel_data.js"></script>
+
 
 <div id="content_wrapper">
 
