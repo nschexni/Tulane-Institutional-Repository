@@ -1,5 +1,5 @@
 #top_stripe_bar{
-	background:url('/ir/assets/img/common/nav_striped_bg.gif');
+	background:url('/new_services/assets/img/common/nav_striped_bg.gif');
 	height:5px;
 	background-repeat:repeat-x;
 	border-top:1px #CCC solid;	
@@ -7,7 +7,7 @@
 #dropList { 
 	height:30px; 
 	width:959px; 
-	background:#89a url('/ir/assets/img/common/topBackBlue.gif') 
+	background:#89a url('/new_services/assets/img/common/topBackBlue.gif') 
 	repeat-x left center; 
 	position:relative; 
 	font-family: Arial, Helvetica, sans-serif; 
@@ -62,25 +62,25 @@ border-bottom:none;
 	border-left:1px solid #2d2d2d; 
 	border-right:1px solid #000; 
 	color:#fff; 
-	background:url('/ir/assets/img/common/overBlue.gif'); 
+	background:url('/new_services/assets/img/common/overBlue.gif'); 
 
 }
 #dropList ul#menu li.sub a.level1-a:hover { 
 	height:29px; 
 	color:#000; 
-	background:url('/ir/assets/img/common/topHover.gif'); 
+	background:url('/new_services/assets/img/common/topHover.gif'); 
 }
 #dropList ul#menu li.sub:hover > a.level1-a { 
 	height:29px; 
 	color:#000; 
-	background:url('/ir/assets/img/common/topHover_blue.gif'); 
+	background:url('/new_services/assets/img/common/topHover_blue.gif'); 
 }
 #dropList ul#menu li div.listHolder { 
 	position:absolute; 
 	left:-9999px; 
 	top:29px; 
 	/*background-color:#061c31;*/
-	background:url('/ir/assets/img/common/blue_gradient.png') ;
+	background:url('/new_services/assets/img/common/blue_gradient.png') ;
 	border:1px solid #999; 
 	border-width:0 1px 1px 1px; 
 	padding:0; 
@@ -191,7 +191,7 @@ color:#d98a00;
 	margin:0; 
 	line-height:20px; 
 	color:#fc0; 
-	background:url('/ir/assets/img/common/arrow.gif') no-repeat left center; 
+	background:url('/new_services/assets/img/common/arrow.gif') no-repeat left center; 
 	font-weight:bold;
 } 
 #dropList ul#menu div.listHolder div.bottomLine p a {
@@ -215,7 +215,7 @@ color:#d98a00;
 	white-space:nowrap; 
 	font-weight:bold; 
 	color:#222; 
-	background:url('/ir/assets/img/common/topHover_blue.gif'); 
+	background:url('/new_services/assets/img/common/topHover_blue.gif'); 
 	
 }
 

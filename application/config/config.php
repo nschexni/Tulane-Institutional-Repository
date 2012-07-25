@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://staff.library.tulane.edu/ir/';
+$config['base_url']	= 'http://staff.library.tulane.edu/new_services/';
 
 /*
 |--------------------------------------------------------------------------
