@@ -262,7 +262,7 @@
                 </ul>
            </div>    
         </div>
-    
+        
         <div id="middle_col">
             <div class="column_area_highlights">
                 <h2 class="collections_headline">Collections</h2>

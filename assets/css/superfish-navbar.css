@@ -1,13 +1,14 @@
 
 /*** adding the class sf-navbar in addition to sf-menu creates an all-horizontal nav-bar menu ***/
 .sf-navbar {
-	background:		#BDD2FF;
-	height:			2.5em;
-	padding-bottom:	2.5em;
+	background:	        url('/new_services/assets/img/common/topBackBlue.gif'); 
+        width:                  960px;
+	height:			0px;
+	padding-bottom:	        26px;
 	position:		relative;
 }
 .sf-navbar li {
-	background:		#AABDE6;
+	background:             none; 
 	position:		static;
 }
 .sf-navbar a {
@@ -17,7 +18,7 @@
 	width:			44em; /*IE6 soils itself without this*/
 }
 .sf-navbar li li {
-	background:		#BDD2FF;
+	background:		#224568;
 	position:		relative;
 }
 .sf-navbar li li ul {
@@ -30,24 +31,33 @@
 	width:			auto;
 	float:			left;
 }
-.sf-navbar a, .sf-navbar a:visited {
+
+.sf-navbar a,.sf-navbar a:visited {
 	border:			none;
 }
+
 .sf-navbar li.current {
-	background:		#BDD2FF;
+	background:url('/new_services/assets/img/common/topHover_blue.gif'); 
+        color:#224568;
 }
+
 .sf-navbar li:hover,
 .sf-navbar li.sfHover,
 .sf-navbar li li.current,
-.sf-navbar a:focus, .sf-navbar a:hover, .sf-navbar a:active {
-	background:		#BDD2FF;
+.sf-navbar a:focus, 
+.sf-navbar a:hover, 
+.sf-navbar a:active {
+background:url('/new_services/assets/img/common/topHover_blue.gif'); 
+color:#224568;
 }
 .sf-navbar ul li:hover,
 .sf-navbar ul li.sfHover,
 ul.sf-navbar ul li:hover li,
 ul.sf-navbar ul li.sfHover li,
-.sf-navbar ul a:focus, .sf-navbar ul a:hover, .sf-navbar ul a:active {
-	background:		#D1DFFF;
+.sf-navbar ul a:focus, 
+.sf-navbar ul a:hover, 
+.sf-navbar ul a:active {
+	background:		#ffb549;
 }
 ul.sf-navbar li li li:hover,
 ul.sf-navbar li li li.sfHover,

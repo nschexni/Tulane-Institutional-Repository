@@ -3,6 +3,7 @@
     
 <head>
     <title><?=$title?></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
     <link rel="shortcut icon" href="<?=base_url();?>assets/img/header/favicon.ico" type="image/x-icon" />
     <!-- css:Reset -->
     <link rel="stylesheet" href="<?= base_url();?>assets/css/reset.css" type="text/css">
