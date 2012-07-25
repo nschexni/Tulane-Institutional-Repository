@@ -47,7 +47,7 @@ h1,h2,h3,h4	{
 }
 h1{
 	font-size: 2.4em;
-    letter-spacing: 1px;
+        letter-spacing: 1px;
 	font-weight:normal;
 	margin:0 40px 0 10px;
 	padding:0 0 5px 0;
@@ -56,45 +56,45 @@ h2{
 	font-size: 1.8em; 	
 	letter-spacing: 1px;
 	font-weight:normal;      
-    margin:0 40px 0 10px;
+        margin:0 40px 0 10px;
 	padding:0 0 5px 0;	
 }
 h2 a {
 	color:#222;
 	text-decoration:none;}
 h3{
-    font-size: 1.4em; 
-    letter-spacing: .05em;
+        font-size: 1.4em; 
+        letter-spacing: .05em;
 	font-weight:bold; 
-    margin:10px 0 10px 10px;
+        margin:10px 0 10px 10px;
 	padding:0;
 }
 
 h4{
-    font-size: 1.2em; 
-    letter-spacing: .05em;
-	font-weight:bold; 
-    margin:10px 0 10px 10px;
+        font-size: 1.2em; 
+        letter-spacing: .05em;
+        font-weight:bold; 
+        margin:10px 0 10px 10px;
 	padding:0;
 }
 
 h5{
-    font-size: 1.1em; 
-    letter-spacing: .05em;
+        font-size: 1.1em; 
+        letter-spacing: .05em;
 	font-weight:bold; 
-    margin:10px 0 10px 10px;
+        margin:10px 0 10px 10px;
 	padding:0;
 }
 .gradient-container{
-	background:#fff url(/ir/assets/img/common/gradient_back.jpg) bottom repeat-x;
+	background:#fff url('/new_services/assets/img/common/gradient_back.jpg') bottom repeat-x;
 	overflow:hidden;
 }
 .gradient-blue{
-	background:#fff url(/ir/assets/img/common/topBackBlue.gif) bottom repeat-x;
+	background:#fff url('/new_services/assets/img/common/topBackBlue.gif') bottom repeat-x;
 	overflow:hidden;
 }
 .required {
-	background-image:url(/ir/assets/img/common/required_star.gif);
+	background-image:url('/new_services/assets/img/common/required_star.gif');
 	background-repeat:no-repeat;
 	padding-left:12px;
 	background-position:left;
@@ -176,270 +176,6 @@ padding:2px;
 }
 
 
-/*MY ACCOUNTS DROPDOWN*/
-.accounts_dd_over{
-background:#89a url(/ir/assets/img/common/blue_gradient.png) 
-	repeat-x left center;
-	color:#d98a00;
-}
-li.accounts_dd {color:#224568;cursor:text;}
-
-#account_dropdown{
-display:none; 
-position:absolute; 
-right:1;
-top:1; 
-padding:0; 
-margin:1px 0 0 186px;
-*margin:19px 0 0 -102px;
-text-align:left;
-background:#89a url(/ir/assets/img/common/blue_gradient.png) 
-	repeat-x left center; 
-z-index:3000;
-color:#fff;
-width:150px;
-height:150px;
-border-left:1px solid #ccc;
-border-bottom:1px solid #ccc;
-border-right:1px solid #ccc;
-}
-.accounts_dd_item{line-height:17px; color:#fff; display:block; padding:4px 0 4px 0;}
-.accounts_dd_item a{line-height:17px; color:#fff;}
-.accounts_dd_item a:hover{line-height:17px; color:#d98a00;}
-
-#account_dropdown p {margin:10px 0 0 0; color:#fff;}
-#account_dropdown a{color:#fff; margin:0 0 0 20px; padding:0;}
-#account_dropdown a:hover{margin:0 0 0 20px; padding:0; color:#d98a00;}
-
-#account_dropdown h5{margin:5px 5px 0 5px; padding:3px 0 5px 0; font-variant:small-caps; font-size:1.1em; 
-	_font-size:1em;}
-
-
-/*SITE SEARCH BOX*/
-
-#google-cse-searchbox-form{
-width:300px;
-background:#89a url(/ir/assets/img/common/topBackBlue.gif)repeat-x left center; 
-	position:relative; 
-	font-size:1em; 
-	z-index:600; 
-	border:1px solid #ccd; 
-	border-left:none;
-	border-right:none;
-	border-width:1px 1px 0 1px; 
-	height:27px;
-	float:right;
-	margin-top:-31px;
-	/*margin-top:-53px;*/
-	padding-top:3px;
-	color:white;
-}
-
-#google-cse-searchbox-form .form-text{
-_font-size:1em;
-_width:150px;
-*width:100px;
-_height:16px;
-}
-
-#google-cse-searchbox-form .form-submit{
-_font-size:1em;
-}
-
-
-#block-google_cse-0 h2{display:none;}
-
-/*END SITE SEARCH BOX*/
-
-/*CONTENT AREA*/
-
-
-/******EMEREGENCY NOTE AREA*****/
-#emergency_note{background-color:#eee; border:1px solid #ccc; width:90%; margin:20px auto -10px auto; padding:5px 20px;}
-#emergency_note p{display:inline; color:#333; font-size:1.5em; width:90%;}
-#emergency_note h2{display:inline; color:red; margin:0 0 0 -10px; }
-#emergency_note a{text-decoration:underline; color:blue;}
-#emergency_note a:hover{text-decoration:underline; color:orange;}
-/******EMEREGENCY NOTE AREA*****/
-
-/*Standard box*/
-
-#body_content #stdbox ul {
-        list-style-type: none;
-        width: 230px;
-		margin:0;
-		padding:0 6px;
-} 
-#body_content #stdbox ul li {
-		list-style:none;
-		font-size:1.3em;
-		padding:3px 0 8px 0;
-		margin:0px;
-		border-bottom: 1px solid #D3D3D3;	
-}
-
-#body_content #stdbox li a{
-        display: block;
-        padding:5px;
-        text-decoration: none;
-}
-* html #stdbox li a {  /* make hover effect work in IE */
-		width: 230px;
-}
-#body_content #stdbox li a:hover {
-        background: #061c31;
-}
-
-/*Standard box for Research Subject page*/
-#body_content #stdbox_ressub {
-		padding:0;
-		float:left;
-		width:195px;
-		border-top:none;
-		border:1px solid #D3D3D3;
-		margin:0 5px 5px 0;
-		position:relative;
-		background:#fff url(/ir/assets/img/common/gradient_back.jpg) bottom repeat-x;
-}
-
-#body_content #stdbox_ressub #stdbox_ressub_head {
-		width:98%;
-    	margin:3px auto 10px auto;
-		padding:0;
-		height:27px;
-		background:#fff url(/ir/assets/img/common/topBackBlue.gif) bottom repeat-x;
-}
-
-#body_content #stdbox_ressub #stdbox_ressub_head h3{
-		color:#fff;
-		font-size:1.2em;
-		padding:5px 0 0 5px;
-		margin:0;
-
-}
-
-#body_content #stdbox_ressub ul {
-        list-style-type: none;
-        width: 95%;
-		margin:0;
-		padding-left:10px;
-
-} 
-
-#body_content #stdbox_ressub ul li {
-		list-style:none;
-		font-size:11pt;
-		color:#000;
-		padding-left:0px;
-		margin:0;
-		line-height:normal;
-}
-
-
-.ressub_catagory {color:#333; font-size:11pt; display:block; margin:5px 50px -8px 0; padding-bottom:11px;}
-
-#body_content #stdbox_ressub ul ul { margin-bottom:5px;}
-
-#body_content #stdbox_ressub ul ul li{
-		list-style:none;
-		font-size:10pt;
-		padding-left:0px;
-		margin:0px 10px 0 1em;
-		text-indent:-1em;
-}
-
-#body_content #stdbox_ressub li a{
-        display: block;
-        padding: 1px;
-		margin:0px;
-        text-decoration: none;
-}
-
-* html #stdbox_ressub li a {  /* make hover effect work in IE */
-		width: 95%;
-}
-#body_content #stdbox_ressub li a:hover {
-        background: #061c31;
-}
-
-
-
-/*Standard box for text items*/
-
-#stdbox_wrapper{
-		margin:30px 0 0 20px;
-		float:left;
-		position:relative;
-}
-#stdbox {
-		padding:0;
-		float:left;
-		width:250px;
-		border-top:none;
-		border:1px solid #D3D3D3;
-		margin:0 30px 20px 0;
-		position:relative;
-		background:#fff url(/ir/assets/img/common/gradient_back.jpg) bottom repeat-x;
-} 
-
-
-#stdbox_head {	
-		width:96%;
-    	margin:3px auto;
-		height:27px;
-		background:#fff url(/ir/assets/img/common/topBackBlue.gif) bottom repeat-x;
-}
-
-#stdbox_text_wrapper{
-		margin:20px 0 0 0;
-		float:left;
-		position:relative;
-}
-#stdbox_text {
-		padding:0;
-		float:left;
-		width:300px;
-		border-top:none;
-		border:1px solid #D3D3D3;
-		margin:0 20px 10px 0;
-		position:relative;
-		background:#fff url(/ir/assets/img/common/gradient_back.jpg) bottom repeat-x;
-} 
-
-#stdbox_text_sc1 {
-		padding:0;
-		float:left;
-		width:623px;
-		border-top:none;
-		border:1px solid #D3D3D3;
-		margin:0 20px 10px 0;
-		position:relative;
-		background:#fff url(/ir/assets/img/common/images/gradient_back.jpg) bottom repeat-x;
-}
-#stdbox p {
- padding:3px 20px 10px 0;
-}
-
-#stdbox_text p {
- padding:3px 20px 10px 0;
-}
-
-#stdbox_head h3 {
-		font-family:Georgia, "Times New Roman", serif;
-		color:#F7F7F7;
-		font-size:1.4em;
-		font-weight:bold;
-		padding:0;
-		margin:0 0 0 10px;
-    	line-height:27px;
-		letter-spacing:.02em;	
-}
-
-.no_margin	{
-	margin-top: 0pt; 
-	margin-bottom: 0pt;
-}
-
 /**--------Site Forms--------**/
 
 .cssform p{
@@ -474,7 +210,7 @@ _font-size:1em;
 /* FOOTER*/
 #footer_stripe{
 	float:left;
-	background-image:url(/ir/assets/img/footer/footer_striped_bg.gif);
+	background-image:url('/new_services/assets/img/footer/footer_striped_bg.gif');
 	background-repeat:repeat-x;
 	height: 20px;
 	width:960px;
@@ -547,142 +283,3 @@ _font-size:1em;
 	color:#d98a00;
 	text-decoration:none;
 }
-
-/*Microforms & Newspapers*/	
-
-#micro_main_wrapper {
-	width:640px;
-}
-#right_col {
-	float:right; width:200px; margin:0 0 0 10px;
-}
-
-#right_col  #stdbox{
-	 margin:0px 0px 10px 10px; width:200px;
-}
-
-#right_col #stdbox ul li {
-		width:182px;
-		list-style:none;
-		font-size:1.3em;
-		padding:3px 0px 8px 5px;
-		margin:0;
-		border-bottom: 1px solid #D3D3D3;	
-		}
-		
-#right_col #stdbox ul li a{
-        display: block;
-        padding: 0 3px 0 0;
-        text-decoration: none;
-		margin:0;
-		width:182px;
-}
-
-#right_col  #stdbox ul li a:hover{
-margin-left:0px;
-width:180px;
-padding:0 0 0 4px;
-}
-
-#wrapper {
-	width:425px;
-}
-
-#left_col #wrapper #list_right_col {
-	float:right; width:220px;
-	padding:0 0 0 0;
-}
-
-#left_col #wrapper #list_right_col ul li{
-	margin-left:-30px;
-	padding:0 0 3px 0;
-	width:100%;
-	border-bottom:1px solid #ccc;
-	list-style-type:none;
-}
-
-#left_col #wrapper #list_right_col ul{
-	width:190px;
-}
-
-#left_col #wrapper #list_left_col {
-	float:left; width:170px;
-
-}
-
-#left_col #wrapper #list_left_col ul{
-	width:170px;
-}
-
-
-#left_col #wrapper #list_left_col ul li{
-	margin-left:-30px;
-	padding:0 0 3px 0;
-	width:100%;
-	border-bottom:1px solid #ccc;
-	list-style-type:none;
-}
-
-#left_col #featured_coll_list #list_micro_coll ul li{
-	margin-left:-30px;
-	padding:0 0 3px 0;
-/*	width:220px;*/
-	border-bottom:1px solid #ccc;
-	list-style-type:none;
-}
-#left_col #featured_coll_list {
-	clear:left;
-	margin:0 0 0 10px;
-}
-#left_col #featured_coll_list h3{
-	clear:left;
-	margin:10px 0 0 0;
-}
-
-
-.text {
-	
-	  width:405px;
-
-}
-#newspapers {
-	
-	  border: 1px solid #d3d3d3; 
-	  width:425px;
-	  margin-left:8px;
-}
-
-#newsTitle 
-{
-      font-size:11pt;
-      border-bottom: 1px solid #d3d3d3; 
-      padding: 5px 0 20px 5px;
-}
-
-#newspapers #newsTitle ul{
-	display: inline;
-	font-size:8pt;
-margin-left:-25px;
-
-
-}
-
-#newspapers #newsTitle ul li{
-	display: inline;
-}
-
-#key {
-	margin:10px 0 10px 0;
-
-}
-
-#key_table td{
-	
-      border-bottom: 1px solid #eee; 
-}
-
-/*End Microforms & Newspapers*/	
-
-/*FOR DRUPAL ADMINISTRATION*/
-div .messages {background-color:pink; clear:both}
-#none ul .tabs secondary {background-color:red; padding:0; margin:0;}

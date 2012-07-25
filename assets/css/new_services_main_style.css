@@ -1,0 +1,89 @@
+/* Homepage Style */
+
+/*CONTENT AREA*/
+#content {
+}
+
+#content_wrapper{
+}
+
+.homepage_title{
+ color:#333;
+ font-size:5em;
+ line-height:1em;
+font-weight:bold;
+padding:20px 0 20px 20px;   
+}
+
+
+
+#homepage_carousel{
+margin:20px 0;
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
+height:330px;
+}
+
+
+#homepage_middle_section{
+float:left;
+width:960px;
+margin:10px 0 30px 0;
+}
+
+#homepage_middle_section h2{
+font-size:22px;
+text-transform:uppercase;
+color:#336699;
+padding:0 0 0 0;
+border-bottom: 1px solid #336699;
+}
+
+.middle_section_p{
+text-align: justify;
+width:250px;
+margin:3px 0 20px 10px;
+}
+
+#homepage_middle_section h2.news_headline{color:#4388cc;}
+#homepage_middle_section h2.collections_headline{color:#4388cc;}
+#homepage_middle_section h2.recent_headline{color:#4388cc;}
+
+.homepage_search_box{
+margin:30px 20px 30px 320px;
+}
+
+.homepage_search_box label{
+font-size:2em;
+text-align:bottom;
+}
+
+#homepage_middle_section ul{
+list-style:none;
+margin:0 0 0 10px;
+}
+
+#homepage_middle_section ul li{
+margin:6px 0 6px 0;
+}
+
+
+#right_col{
+  float:left;
+  width:300px;
+}
+
+#middle_col{
+  float:left;
+  width:620px;
+  margin:0 0 0 10px;
+}
+
+#left_col{
+  width:300px;
+  float:left;
+  margin-left:10px;
+display:none;
+}
+
+

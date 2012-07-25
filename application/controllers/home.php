@@ -12,15 +12,15 @@ class Home extends CI_Controller {
             
            
             //Homepage Array
-            $homepage = array('title' => 'Tulane Institutional Repository');
+            $homepage = array('title' => 'New Services @ Tulane Library');
             
             
             //loads header
             $this->load->view('common/header', $homepage);
             
             //loads main navigation
-            $this->load->view('common/main_menu');
-            
+//            $this->load->view('common/main_menu');
+            $this->load->view('common/main_nav_two_level');
             //loads views/home/home_view.php
             $this->load->view('home/home_view', $data);  
             
