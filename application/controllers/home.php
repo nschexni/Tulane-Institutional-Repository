@@ -12,7 +12,7 @@ class Home extends CI_Controller {
             
            
             //Homepage Array
-            $homepage = array('title' => 'Tulane Institutional Repository');
+            $homepage = array('title' => 'New Services @ Tulane Library');
             
             
             //loads header
