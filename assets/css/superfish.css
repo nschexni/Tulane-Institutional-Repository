@@ -4,7 +4,7 @@ ul.nav_digital_library{margin-left:55px;}
 ul.nav_theses{margin-left:160px;}
 ul.nav_publishing{margin-left:310px;}
 ul.nav_researcher{margin-left:392px;}
-.sf-navbar li a:hover,.sf-navbar li a:active {color:#224568;}
+/*.sf-navbar li a:hover,.sf-navbar li a:active {color:#224568;}*/
 .sf-navbar li a{color:white;}
 /*** ESSENTIAL STYLES ***/
 .sf-menu, .sf-menu * {
