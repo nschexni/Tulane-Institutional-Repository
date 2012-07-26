@@ -12,11 +12,11 @@
         
         $("li.nav_top_level ul li a").hover(
             function () {
-                    ("li.nav_top_level").css("background", "red")
+                    $("li.nav_top_level").css("color", "#224568")
                     //$('this').css('color', 'red')
                },
             function () {
-                    ("li.nav_top_level").css("background", "green");
+                    $("li.nav_top_level").css("color", "#fff");
                     //$(this).css('color', 'green')
                }
          );
